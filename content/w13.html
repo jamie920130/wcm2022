@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='About.html'>About</a><li class='has-children'><a href='online.html'>online</a><ul class='dropdown'><li><a href='w13.html'>w13</a></li></ul><li><a href='midterm.html'>midterm</a></li>
+                     <li><a href='About.html'>About</a><li class='has-children'><a href='online.html'>online</a><ul class='dropdown'><li><a href='w13.html'>w13</a><li><a href='w14.html'>w14</a></li></ul><li><a href='midterm.html'>midterm</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,17 +139,7 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">online << <a href='online.html'>Previous</a> <a href='midterm.html'>Next</a> >> midterm<br /><h1>w13</h1>
-<!-- 導入 brython 程式庫 -->
-<script src="./../cmsimde/static/brython.js"></script>
-<script src="./../cmsimde/static/brython_stdlib.js"></script>
-<!-- 啟動 Brython -->
-<script>
-window.onload=function(){
-brython();
-}
-</script>
-<div id="brython_div"></div>
+    <div id="tipue_search_content">online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14<br /><h1>w13</h1>
 <script type="text/python">
 # 這個程式用於 demo 綠色方塊沿著網格 U 形路徑行走
 # 從 Brython 程式庫中的 browser 模組導入 document 類別, 並以簡寫設定為 doc
@@ -339,8 +329,7 @@ for i in range(5):
     draw_rect(xcoord, ycoord, wrect_size, hrect_size, color="red")
 '''
 browser.timer.set_interval(game, 100)
-</script>
-<br />online << <a href='online.html'>Previous</a> <a href='midterm.html'>Next</a> >> midterm</div>
+</script><br />online << <a href='online.html'>Previous</a> <a href='w14.html'>Next</a> >> w14</div>
         
     <!-- footer -->
       <div class="container">
